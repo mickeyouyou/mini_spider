@@ -22,8 +22,11 @@ class TestWebpageSaver(unittest.TestCase):
         """
         saver = Saver("output")
 
-        dict = {'http://pycm.baidu.com:8081': ['http://pycm.baidu.com:8081/page1.html', 'http://pycm.baidu.com:8081/page2.html', 
-        'http://pycm.baidu.com:8081/page3.html', 'http://pycm.baidu.com:8081/mirror/index.html']}
+        dict = {'http://pycm.baidu.com:8081': [
+        'http://pycm.baidu.com:8081/page1.html',
+        'http://pycm.baidu.com:8081/page2.html', 
+        'http://pycm.baidu.com:8081/page3.html', 
+        'http://pycm.baidu.com:8081/mirror/index.html']}
         saver.save(dict)
 
         dir = "/Users/fengzongbao/codes/goodcoder/output/http%3A%2F%2Fpycm.baidu.com%3A8081"
