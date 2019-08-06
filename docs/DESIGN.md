@@ -50,5 +50,3 @@ thread_count: 8 ; 抓取线程数
 - 代码严格遵守百度python编码规范
 - 代码的可读性和可维护性好。注意模块、类、函数的设计和划分
 - 完成相应的单元测试和使用demo。你的demo必须可运行，单元测试有效而且通过
-- 注意控制抓取间隔和总量，避免对方网站封禁百度IP。PS Python CM委员会为大家提供测试抓取网站: http://pycm.baidu.com:8081
-- 完成考试编程的一个简单指南：http://wiki.baidu.com/pages/viewpage.action?pageId=328311684
